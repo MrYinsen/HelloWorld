@@ -7,4 +7,5 @@ The bulk of these projects will be from the C++ textbook, _C++ Primer_.
 
 📜 __Scripts__:  
 [HelloWorld.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/HelloWorld.cpp): output "Hello World" to console.  
-[Addition.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/Addition.cpp): accept to integers in CLI and output their sum.  
+[Addition.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/Addition.cpp): accept two to integers in CLI and output their sum.
+[Multiplication.cpp]: accept two integers in CLI and output their product.
