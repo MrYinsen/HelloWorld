@@ -6,5 +6,5 @@ of a script file can will have the same name as the script with the exception of
 The bulk of these projects will be from the C++ textbook _C++ Primer_.  
 
 📜 __Scripts__:  
-_HelloWorld.cpp_: output "Hello World" to console.  
-_Addition.cpp_: accept to integers in CLI and output their sum.  
+[HelloWorld.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/HelloWorld.cpp): output "Hello World" to console.  
+[Addition.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/Addition.cpp): accept to integers in CLI and output their sum.  
