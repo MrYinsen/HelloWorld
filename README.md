@@ -5,6 +5,6 @@ For each project I will include a brief description next to the name of the scri
 of a script file can will have the same name as the script with the exception of lowercase first letter. 
 The bulk of these projects will be from the C++ textbook _C++ Primer_.  
 
-📜__Scripts__:  
+📜 __Scripts__:  
 **HelloWorld.cpp**: output "Hello World" to console.  
 **Addition.cpp**: accept to integers in CLI and output their sum.  
