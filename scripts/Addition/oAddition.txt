@@ -1,0 +1,2 @@
+Enter two numbers:
+The sum of 2 and 5 is 7

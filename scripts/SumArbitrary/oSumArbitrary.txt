@@ -1,0 +1,2 @@
+Enter a set of numbers to sum:
+Sum is: 28

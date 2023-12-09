@@ -1,0 +1,4 @@
+Enter sets of consecutive values: 
+1 occurs 3 times
+2 occurs 3 times
+3 occurs 3 times
