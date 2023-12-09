@@ -12,3 +12,5 @@ The bulk of these projects will be from the C++ textbook, _C++ Primer_.
 [SumTwo.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/SumTwo.cpp): accept two integers in CLI and print the sum of all values between the two, inclusive of the final value.  
 [Countdown.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/Countdown.cpp): accept an integer and print a countdown to 0 (inclusive).  
 [Range.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/Range.cpp): accept two integers and print all the numbers in the range between them (inclusive).  
+[SumArbitrary.cpp](): accept an arbitrary amount of integers and print the sum of all input integer values.  
+[ConsecutiveValues.cpp](): accept an arbitrary amount of integers and print the size of each run of consecutive integers.  
