@@ -14,3 +14,5 @@ The bulk of these projects will be from the C++ textbook, _C++ Primer_.
 [Range.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/Range.cpp): accept two integers and print all the numbers in the range between them (inclusive).  
 [SumArbitrary.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/SumArbitrary.cpp): accept an arbitrary amount of integers and print the sum of all input integer values.  
 [ConsecutiveValues.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/ConsecutiveValues.cpp): accept an arbitrary amount of integers and print the size of each run of consecutive integers.  
+[TypeConverter.cpp](): play with implicit type conversions.  
+[EscapeSequence.cpp](): basic printing using escape sequences.
