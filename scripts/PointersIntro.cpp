@@ -1,4 +1,13 @@
 #include <iostream>
+
+void printNumber(void *ptr, char type) {
+    if (type == 'i') {
+        std::cout << "It's an integer: " << (*(int*)ptr) << std::endl;
+    } else if (type == 'f') {
+        std::cout << "It's a floating point number: " << (*(float*)ptr) << std::endl;
+    }
+}
+
 int main() 
 {
     int *ip1, *ip2;
@@ -37,4 +46,9 @@ int main()
     } else {
         std::cout << "There we go, lol" << std::endl;
     }
+
+    float f = 3.1;
+
+    printNumber(ip1, 'i');
+    printNumber(&f, 'f');
 }
