@@ -17,13 +17,24 @@ int main()
 
     std::cout << "Second pass (changed): " << a << " " << b << std::endl;
 
+    int &ptr = *ip1;
     int *ip3 = ip2;
+    ptr = 1000;
     *ip3 = 100;
 
-    std::cout << "Third pass (second order change): " << b << std::endl;
+    std::cout << "Third pass (second order change): " << a << " " << b << std::endl;
 
     int derefVar1 = *ip1;
     int derefVar2 = *ip2;
 
     std::cout << "Fourth pass (deref): " << derefVar1 << " " << derefVar2 << std::endl;
+
+    if(ip3 == ip2) {
+        std::cout << "Obviously they're equal!" << std::endl;
+    }
+    if(ip3 == ip1) {
+        std::cout << "Uh oh, you're confused" << std::endl;
+    } else {
+        std::cout << "There we go, lol" << std::endl;
+    }
 }
