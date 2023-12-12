@@ -16,3 +16,6 @@ The bulk of these projects will be from the C++ textbook, _C++ Primer_.
 [ConsecutiveValues.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/ConsecutiveValues.cpp): accept an arbitrary amount of integers and print the size of each run of consecutive integers.  
 [TypeConverter.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/TypeConversion.cpp): play with implicit type conversions.  
 [EscapeSequence.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/EscapeSequence.cpp): basic printing using escape sequences.
+[ReferencesIntro.cpp](): trying out reference compound type.  
+[PointersIntro.cpp](): explore basic methods to assign values to pointers. Change the value at the pointer address and initialize new values using the dereference operator on the pointer.  
+
