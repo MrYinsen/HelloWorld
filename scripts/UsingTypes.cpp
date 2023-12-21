@@ -35,6 +35,11 @@ int main()
     *pc1 = 'b';
 
     std::cout << "char -> cstr, char* -> pstr " << c1 << std::endl;
+    
+    auto a1 = 1;
+    decltype(v1) dt1 = 3;
+
+    std::cout << "auto + decltype " << a1 + dt1 << std::endl;
 
     return 0;
 }
