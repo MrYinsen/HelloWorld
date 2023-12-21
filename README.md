@@ -18,4 +18,4 @@ The bulk of these projects will be from the C++ textbook, _C++ Primer_.
 [EscapeSequence.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/EscapeSequence.cpp): basic printing using escape sequences.  
 [ReferencesIntro.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/ReferencesIntro.cpp): trying out reference compound type.  
 [PointersIntro.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/PointersIntro.cpp): explore basic methods to assign values to pointers. Change the value at the pointer address and initialize new values using the dereference operator on the pointer.  
-
+[UsingTypes.cpp](): explore different ways of working with variable types.
