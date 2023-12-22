@@ -19,3 +19,4 @@ The bulk of these projects will be from the C++ textbook, _C++ Primer_.
 [ReferencesIntro.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/ReferencesIntro.cpp): trying out reference compound type.  
 [PointersIntro.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/PointersIntro.cpp): explore basic methods to assign values to pointers. Change the value at the pointer address and initialize new values using the dereference operator on the pointer.  
 [UsingTypes.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/UsingTypes.cpp): explore different ways of working with variable types.
+[DataStructures.cpp](https://github.com/MrYinsen/HelloWorld/tree/main/scripts/DataStructures): explore data structures starting with a very simple sales data struct and reading inputs to update the struct.
