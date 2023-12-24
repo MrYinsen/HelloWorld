@@ -19,4 +19,9 @@ The bulk of these projects will be from the C++ textbook, _C++ Primer_.
 [ReferencesIntro.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/ReferencesIntro.cpp): trying out reference compound type.  
 [PointersIntro.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/PointersIntro.cpp): explore basic methods to assign values to pointers. Change the value at the pointer address and initialize new values using the dereference operator on the pointer.  
 [UsingTypes.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/UsingTypes.cpp): explore different ways of working with variable types.
-[DataStructures.cpp](https://github.com/MrYinsen/HelloWorld/tree/main/scripts/DataStructures): explore data structures starting with a very simple sales data struct and reading inputs to update the struct.
+[DataStructures.cpp](https://github.com/MrYinsen/HelloWorld/tree/main/scripts/DataStructures): explore data structures starting with a very simple sales data struct and reading inputs to update the struct.  
+[ConcatString.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/UsingStrings/ConcatString.cpp): read a set of text and (a) concatenate all words with no spaces or (b) concatenate all words with a single space between.  
+[ConvertToHex.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/UsingStrings/ConvertToHex.cpp): read a set of input values between 0-15 and output the hexadecimal value representing them.  
+[ReadingStrings.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/UsingStrings/ReadingStrings.cpp): read text line by line or word by word.  
+[ChangeToX.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/ChangeToX.cpp): change each character in a word to X.  
+[RemovePunctuation.cpp](https://github.com/MrYinsen/HelloWorld/blob/main/scripts/RemovePunctuation.cpp): read through an input from a user and remove all the provided punctuation points through iterating by character.  
