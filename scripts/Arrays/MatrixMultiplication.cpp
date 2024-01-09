@@ -9,9 +9,8 @@ using std::endl;
 int main()
 {
     int matrixSize;
-    int matrixCells;
     cin >> matrixSize;
-    matrixCells = pow(matrixSize, 2);
+    int matrixCells = pow(matrixSize, 2);
     int comp3[matrixCells];
     int comp4[matrixCells];
     for(int i = 0; i < matrixSize; ++i) {
