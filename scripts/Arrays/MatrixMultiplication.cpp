@@ -2,44 +2,40 @@
  * Basic matrix multiplication algorithm using multidimensional arrays.
 */
 #include <iostream>
-#include <random>
+#include <cmath>
 using std::cin;
 using std::cout;
 using std::endl;
-using std::begin;
-using std::end;
 int main()
 {
-    const size_t items = 3;
-    int m1[items][items] = {
-        {3, 3, 3},
-        {2, 2, 2},
-        {1, 1, 1},
-    };
-    int m2[items][items] = {
-        {1, 1, 1},
-        {2, 2, 2},
-        {3, 3, 3}
-    };
-    int om[items][items] = {
-        (0),
-        (0),
-        (0)
-    };
-    for(int i = 0; i < items; ++i) {
-        for(int k = 0; k < items; ++k) {
-            for(int j : m1[i]) {
-                om[k][i] += j * m2[k][i];
-            }    
+    int matrixSize;
+    int matrixCells;
+    cin >> matrixSize;
+    matrixCells = pow(matrixSize, 2);
+    int comp3[matrixCells];
+    int comp4[matrixCells];
+    for(int i = 0; i < matrixSize; ++i) {
+        for(int j = 0; j < matrixSize; ++j) {
+            cin >> comp3[i + matrixSize * j];
         }
     }
-    
-    for(int i = 0; i < items; ++i) {
-        for(int j = 0; j < items; ++j) {
-            cout << om[i][j] << " ";
+    for(int i = 0; i < matrixSize; ++i) {
+        for(int j = 0; j < matrixSize; ++j) {
+            cin >> comp4[i * matrixSize + j];
         }
-        cout << endl;
     }
-
+    int om1[matrixCells];
+    for(int i = 0; i < matrixCells; ++i) {
+        for(int j = 0; j < matrixSize; ++j) {
+            if(j == 0) om1[i] = 0;
+            int index = i / matrixSize * matrixSize + j; 
+            om1[i] += comp3[index] * comp4[index];
+        }
+    }
+    for(int i = 0; i < matrixCells; ++i) {
+        if(i != 0 && i % matrixSize == 0) cout << endl;
+        cout << om1[i] << " ";
+    }
+    cout << endl;
     return 0;
 }
