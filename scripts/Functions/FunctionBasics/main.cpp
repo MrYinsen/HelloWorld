@@ -1,6 +1,5 @@
 #include <iostream>
-#include <string>
-#include <vector>
+#include <initializer_list>
 #include "FunctionBasics.h"
 using std::cin;
 using std::cout;
@@ -19,4 +18,6 @@ int main()
     cin >> val;
     cout << abs(val) << endl;
     cout << countCalls() << " " << countCalls() << " " << countCalls() << endl;
+    addValues({1, 2, 4, 3, 10});
+    return 0;
 }
